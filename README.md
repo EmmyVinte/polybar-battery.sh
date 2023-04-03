@@ -7,7 +7,7 @@ Um tutorial completo de iniciante para iniciante de como monitorar a bateria de 
 O Script muda os ícones de acordo com a porcentagem da bateria, também possui um ícone específico para quando estiver carregando.
 
 ## Passo 1
-Faça download de <span style="color:red">polybar-battery.sh</span>, mova o arquivo 'battery.sh' para dentro da pasta de scripts na poybar, geralmente fica em:
+Faça download de **polybar-battery.sh**, mova o arquivo *battery.sh* para dentro da pasta de scripts na poybar, geralmente fica em:
   - ~/.config./polybar/scripts/battery.sh
   - Caso não tenha a pasta, crie uma!
 
@@ -15,7 +15,7 @@ Faça download de <span style="color:red">polybar-battery.sh</span>, mova o arqu
 Dê permissão de execução ao arquivo com o comando:
   - chmod +x /caminho/do/arquivo/battery.sh
 
-  ### Passo 2.1 (battery.sh, linha 5 e 8)
+  ### Passo 2.1 (*battery.sh, linha 5 e 8*)
   Em meu notebook, o local onde consigo extrair informações da bateria são esses:
   - /sys/class/power_supply/ADP1/online (Valor em binário de 'Carregando' ou 'Descarregando')
   - /sys/class/power_supply/BAT1/capacity (Número relativo a % da bateria)
@@ -36,7 +36,7 @@ Abra o arquivo de configuração de sua polybar e adicione essas linhas:
   ```
 
 Lembre-se de substituir o caminho pelo correto!
-Lembre-se de adicionar o módulo <span style="color:blue">battery.sh</span> em sua polybar para ser mostrado!
+Lembre-se de adicionar o módulo *battery.sh* em sua polybar para ser mostrado!
     - Exemplo:
       - modules-left = xworkspaces
       - modules-right = cpu memory battery
@@ -51,5 +51,5 @@ Caso já esteja em execução, primeiro mate o processo e rode novamente com os 
   - polybar example -r &
   
 ## Nota final
-Recomendo que abra e visualize o arquivo <span style="color:blue">battery.sh</span> para poder customizá-lo a seu sabor.
+Recomendo que abra e visualize o arquivo *battery.sh* para poder customizá-lo a seu sabor.
 Não disponibilizo suporte a esse arquivo!
