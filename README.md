@@ -7,7 +7,7 @@ Um tutorial completo de iniciante para iniciante de como monitorar a bateria de 
 O Script muda os ícones de acordo com a porcentagem da bateria, também possui um ícone específico para quando estiver carregando.
 
 ## Passo 1
-Faça download de <span style="color:blue">polybar-battery.sh</span>, mova o arquivo 'battery.sh' para dentro da pasta de scripts na poybar, geralmente fica em:
+Faça download de <span style="color:red">polybar-battery.sh</span>, mova o arquivo 'battery.sh' para dentro da pasta de scripts na poybar, geralmente fica em:
   - ~/.config./polybar/scripts/battery.sh
   - Caso não tenha a pasta, crie uma!
 
