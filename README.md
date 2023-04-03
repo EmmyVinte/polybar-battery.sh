@@ -13,8 +13,7 @@ Faça download do arquivo 'battery.sh' e mova para sua pasta de scripts dentro d
 Dê permissão de execução ao arquivo com o comando:
   - chmod +x /caminho/do/arquivo/battery.sh
 
-  ### Passo 2.1
-  - (battery.sh, linha 5 e 8)
+  ### Passo 2.1 (battery.sh, linha 5 e 8)
   Em meu notebook, o local onde consigo extrair informações da bateria são esses:
   - /sys/class/power_supply/ADP1/online (Valor em binário de 'Carregando' ou 'Descarregando')
   - /sys/class/power_supply/BAT1/capacity (Número relativo a % da bateria)
@@ -24,13 +23,13 @@ Dê permissão de execução ao arquivo com o comando:
 
 ## Passo 3
 Abra o arquivo de configuração de sua polybar e adicione essas linhas:
-  - [module/battery]
-  type = custom/script
-  exec = /bin/bash -c 'caminho/do/arquivo/battery.sh'
-  interval = 1    
-  format-prefix-foreground = ${colors.primary}
-  format-args = <label>
-  label = %output%
+[module/battery]
+type = custom/script
+exec = /bin/bash -c 'caminho/do/arquivo/battery.sh'
+interval = 1
+format-prefix-foreground = ${colors.primary}
+format-args = <label>
+label = %output%
 
 Lembre-se de substituir o caminho pelo correto!
 Lembre-se de adicionar o módulo 'battery' em sua polybar para ser mostrado!
