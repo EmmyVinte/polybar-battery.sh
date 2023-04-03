@@ -37,9 +37,9 @@ Abra o arquivo de configuração de sua polybar e adicione essas linhas:
 
 Lembre-se de substituir o caminho pelo correto!
 Lembre-se de adicionar o módulo *battery.sh* em sua polybar para ser mostrado!
-    - Exemplo:
-      - modules-left = xworkspaces
-      - modules-right = cpu memory battery
+  - Exemplo:
+    - modules-left = xworkspaces
+    - modules-right = cpu memory battery
     
 ## Passo 4
 Reinicie sua polybar com o comando:
