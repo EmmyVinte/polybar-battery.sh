@@ -1,5 +1,5 @@
 # polybar-battery.sh
-Um tutorial completo de iniciante para iniciante de como monitorar a bateria de seu notebook pela polybar.
+Um tutorial completo de iniciante para iniciante de como monitorar a bateria de seu notebook pela polybar com bspwm.
 ![image](https://user-images.githubusercontent.com/117837570/229532231-855892cc-ee18-443e-a229-9e199914cd0d.png)
 ![image](https://user-images.githubusercontent.com/117837570/229534120-4e9df9e6-bb7c-4112-8b4a-0e8106d53576.png)
 
