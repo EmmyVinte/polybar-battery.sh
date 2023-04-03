@@ -16,8 +16,8 @@ Dê permissão de execução ao arquivo com o comando:
   ### Passo 2.1
   (battery.sh, linha 5 e 8)
   Em meu notebook, o local onde consigo extrair informações da bateria são esses:
-    - /sys/class/power_supply/ADP1/online (Valor em binário de 'Carregando' ou 'Descarregando')
-    - /sys/class/power_supply/BAT1/capacity (Número relativo a % da bateria)
+  - /sys/class/power_supply/ADP1/online (Valor em binário de 'Carregando' ou 'Descarregando')
+  - /sys/class/power_supply/BAT1/capacity (Número relativo a % da bateria)
   É importante que você procure o local correto em seu dispositivo e substitua essas linhas!
   Dentro do arquivo battery.sh deixei mais informações relevantes, dê uma olhada!
 
