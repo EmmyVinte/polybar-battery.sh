@@ -1,5 +1,6 @@
 # polybar-battery.sh
 Um tutorial completo de iniciante para iniciante de como monitorar a bateria de seu notebook pela polybar.
+![image](https://user-images.githubusercontent.com/117837570/229532231-855892cc-ee18-443e-a229-9e199914cd0d.png)
 
 ## Apresentação
 Esse tutorial segue junto de um arquivo .sh e o código para você adicionar ao módulo de sua polybar, sim, apenas isto! O Script muda os ícones de acordo com a porcentagem da bateria, também possui um ícone específico para quando estiver carregando.
