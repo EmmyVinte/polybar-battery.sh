@@ -8,6 +8,7 @@ Esse tutorial segue junto de um arquivo .sh e o código para você adicionar ao 
 
 ## Passo 1
 Faça download do arquivo 'battery.sh' e mova para sua pasta de scripts dentro da poybar, geralmente fica em:
+  ````git clone https://github.com/EmmyVinte/polybar-battery.sh.git```
   - ~/.config./polybar/scripts/battery.sh
 
 ## Passo 2
