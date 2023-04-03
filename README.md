@@ -1,7 +1,7 @@
 # polybar-battery.sh
 Um tutorial completo de iniciante para iniciante de como monitorar a bateria de seu notebook pela polybar com bspwm.
-![image](https://user-images.githubusercontent.com/117837570/229532231-855892cc-ee18-443e-a229-9e199914cd0d.png)
-![image](https://user-images.githubusercontent.com/117837570/229534120-4e9df9e6-bb7c-4112-8b4a-0e8106d53576.png)
+- ![image](https://user-images.githubusercontent.com/117837570/229532231-855892cc-ee18-443e-a229-9e199914cd0d.png)
+- ![image](https://user-images.githubusercontent.com/117837570/229534120-4e9df9e6-bb7c-4112-8b4a-0e8106d53576.png)
 
 ## Funcionamento
 O Script muda os ícones de acordo com a porcentagem da bateria, também possui um ícone específico para quando estiver carregando.
@@ -40,7 +40,7 @@ Abra o arquivo de configuração de sua polybar e adicione essas linhas:
 
 Lembre-se de substituir o caminho pelo correto!
 Lembre-se de adicionar o módulo *battery.sh* em sua polybar para ser mostrado!
-  - Exemplo:
+- Exemplo:
   ```bash
   modules-left = xworkspaces
   modules-right = cpu memory battery
@@ -56,7 +56,7 @@ Caso já esteja em execução, primeiro mate o processo e rode novamente com os 
   ps aux | grep polybar
   ```
   ```bash
-  kill PID (Substitua o PID pelo número do processo)
+  kill PID
   ```
   ```bash
   polybar example -r &
