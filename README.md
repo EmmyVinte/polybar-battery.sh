@@ -1,6 +1,7 @@
 # polybar-battery.sh
 Um tutorial completo de iniciante para iniciante de como monitorar a bateria de seu notebook pela polybar.
 ![image](https://user-images.githubusercontent.com/117837570/229532231-855892cc-ee18-443e-a229-9e199914cd0d.png)
+![image](https://user-images.githubusercontent.com/117837570/229534120-4e9df9e6-bb7c-4112-8b4a-0e8106d53576.png)
 
 ## Apresentação
 Esse tutorial segue junto de um arquivo .sh e o código para você adicionar ao módulo de sua polybar, sim, apenas isto! O Script muda os ícones de acordo com a porcentagem da bateria, também possui um ícone específico para quando estiver carregando.
@@ -23,13 +24,13 @@ Dê permissão de execução ao arquivo com o comando:
 
 ## Passo 3
 Abra o arquivo de configuração de sua polybar e adicione essas linhas:
-[module/battery]
-type = custom/script
-exec = /bin/bash -c 'caminho/do/arquivo/battery.sh'
-interval = 1
-format-prefix-foreground = ${colors.primary}
-format-args = <label>
-label = %output%
+  [module/battery]
+  type = custom/script
+  exec = /bin/bash -c 'caminho/do/arquivo/battery.sh'
+  interval = 1
+  format-prefix-foreground = ${colors.primary}
+  format-args = <label>
+  label = %output%
 
 Lembre-se de substituir o caminho pelo correto!
 Lembre-se de adicionar o módulo 'battery' em sua polybar para ser mostrado!
