@@ -24,7 +24,7 @@ Dê permissão de execução ao arquivo com o comando:
   - /sys/class/power_supply/BAT1/capacity (Número relativo a % da bateria)
   
   É importante que você procure o local correto em seu dispositivo e substitua essas linhas!
-  Dentro do arquivo battery.sh deixei mais informações relevantes, dê uma olhada!
+  Dentro do arquivo *battery.sh* deixei mais informações relevantes, dê uma olhada!
 
 ## Passo 3
 Abra o arquivo de configuração de sua polybar e adicione essas linhas:
