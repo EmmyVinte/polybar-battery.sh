@@ -8,13 +8,16 @@ O Script muda os ícones de acordo com a porcentagem da bateria, também possui 
 
 ## Passo 1
 Faça download de **polybar-battery.sh**, mova o arquivo *battery.sh* para dentro da pasta de scripts na poybar, geralmente fica em:
-  - ~/.config./polybar/scripts/battery.sh
+  ```bash
+  ~/.config./polybar/scripts/battery.sh
+  ```
   - Caso não tenha a pasta, crie uma!
 
 ## Passo 2
 Dê permissão de execução ao arquivo com o comando:
-  - chmod +x /caminho/do/arquivo/battery.sh
-
+  ```bash
+  chmod +x /caminho/do/arquivo/battery.sh
+  ```
   ### Passo 2.1 (*battery.sh, linha 5 e 8*)
   Em meu notebook, o local onde consigo extrair informações da bateria são esses:
   - /sys/class/power_supply/ADP1/online (Valor em binário de 'Carregando' ou 'Descarregando')
@@ -45,13 +48,19 @@ Lembre-se de adicionar o módulo *battery.sh* em sua polybar para ser mostrado!
     
 ## Passo 4
 Reinicie sua polybar com o comando:
-  - polybar example -r &
-
+  ```bash
+  polybar example -r &
+  ```
 Caso já esteja em execução, primeiro mate o processo e rode novamente com os comandos:
-  - ps aux | grep polybar
-  - kill PID (Substitua o PID pelo número do processo)
-  - polybar example -r &
-  
+  ```bash
+  ps aux | grep polybar
+  ```
+  ```bash
+  kill PID (Substitua o PID pelo número do processo)
+  ```
+  ```bash
+  polybar example -r &
+  ```
 ## Nota final
 Recomendo que abra e visualize o arquivo *battery.sh* para poder customizá-lo a seu sabor.
 Não disponibilizo suporte a esse arquivo!
