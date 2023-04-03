@@ -24,13 +24,14 @@ Dê permissão de execução ao arquivo com o comando:
 
 ## Passo 3
 Abra o arquivo de configuração de sua polybar e adicione essas linhas:
+  ```bash
   [module/battery]
   type = custom/script
   exec = /bin/bash -c 'caminho/do/arquivo/battery.sh'
   interval = 1
   format-prefix-foreground = ${colors.primary}
   format-args = <label>
-  label = %output%
+  label = %output%```
 
 Lembre-se de substituir o caminho pelo correto!
 Lembre-se de adicionar o módulo 'battery' em sua polybar para ser mostrado!
